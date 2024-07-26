@@ -1,10 +1,5 @@
 * {
-    background-color: #BBC5B9;
-    /* font-family: "Open Sans", sans-serif; */
-}
-
-.title  {
-    font-family: "Overpass mono";
-    display: flex;
-    align-content: center;
+    background-color: #EDEBE5;
+    font-family: "Open Sans", sans-serif;
+    color: #B0ACAC;
 }
