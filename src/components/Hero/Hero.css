@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     align-items: center;
+    height: 800px;
 }
 
 .leftside {
