@@ -1,6 +1,7 @@
 .projects-container {
     padding-top: 5vh;
     padding-left: 15vh;
+    padding-right: 15vh;
     background-color: #ffffffe0;
     height: 100vh;
     color: #614b3d;
@@ -14,4 +15,5 @@
 
 .projects {
     display: flex;
+    flex-direction: column;
 }
