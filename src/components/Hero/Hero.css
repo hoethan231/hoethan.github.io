@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     align-items: center;
-    height: 800px;
+    height: 100vh;
 }
 
 .leftside {
@@ -28,7 +28,6 @@
 
 .name {
     font-size: 8vw;
-    color: #7C8964;
 }
 
 .subtext {

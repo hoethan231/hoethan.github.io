@@ -1,12 +1,17 @@
 .projects-container {
-    background-color: #282A27;
-    height: 1000px;
-    border-radius: 25px;
+    padding-top: 5vh;
+    padding-left: 15vh;
+    background-color: #ffffffe0;
+    height: 100vh;
+    color: #614b3d;
 }
 
 .title {
-    padding-top: 10vh;
-    padding-left: 15vh;
     font-size: 8vh;
     font-weight: 800;
+    color: #614b3d;
+}
+
+.projects {
+    display: flex;
 }
