@@ -1,8 +1,23 @@
 body {
-    /* background-color: #EDEBE5; */
     background-color: #7C8964;
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
     color: #ffffffe0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+::-moz-scrollbar {
+    display: none;
+}
+  
+::-ms-scrollbar {
+    display: none;
+}
+  
+::-o-scrollbar {
+    display: none;
 }
