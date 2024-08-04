@@ -1,6 +1,6 @@
 .herocontainer{
     background-color: #7C8964;
-    height: 100vh;
+    height: 105vh;
 }
 
 .hero {
@@ -27,13 +27,19 @@
     flex-direction: column;
     align-items: center;
     padding-right: 10vw;
-    line-height: 0;
 }
 
 .name {
     font-size: 8vw;
+    margin-bottom: 0;
 }
 
 .subtext {
     font-size: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
 }

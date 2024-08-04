@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
                 <div className="rightside">
                     <h1 className="name">ETHAN HO</h1>
-                    <p className="subtext">Student in <br/>Computer Engineering</p>
+                    <p className="subtext">Computer Engineering Student</p>
                 </div>
             </div>
         </div>
