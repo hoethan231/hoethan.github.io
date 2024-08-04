@@ -1,0 +1,55 @@
+.pre-loader {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffffe0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    display: inline-block;
+    color: black;
+    font-size: 15em;
+    font-family: monospace;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    opacity: 1;
+}
+
+.text {
+    position: relative;
+    opacity: 1;
+}
+
+.text::before,
+.text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.text::before {
+    background: rgba(255, 255, 255, 1);
+    animation: typewriter 2s steps(9) 1s forwards;
+}
+
+.text::after {
+    background: black;
+    width: 0.07em;
+    animation: 
+        typewriter 2s steps(9) 1s forwards,
+        blink 0.4s steps(9) infinite;
+
+}
+
+@keyframes typewriter {
+    to { left: 100%; }
+}
+
+@keyframes blink {
+    to { background: transparent; }
+}
